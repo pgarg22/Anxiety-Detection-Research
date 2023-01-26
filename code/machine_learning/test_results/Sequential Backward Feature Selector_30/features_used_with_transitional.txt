@@ -1,0 +1,12 @@
+Features Used with transitional period for Sequential Backward Feature Selector_30
+
+1. HRV_TINN
+2. HRV_LnHF
+3. HRV_SD1SD2
+4. HRV_C2d
+5. HRV_MFDFA_alpha2_Peak
+6. HRV_KFD
+7. RRV_VLF
+8. RRV_LFHF
+9. RRV_HFn
+10. RRV_ApEn

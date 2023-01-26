@@ -1,0 +1,14 @@
+Features Used without transitional period for Extra Tree Feature Selector
+
+1. HRV_ApEn
+2. RRV_ApEn
+3. RRV_LFn
+4. HRV_VLF
+5. HRV_LF
+6. HRV_RCMSEn
+7. RRV_VLF
+8. HRV_C2d
+9. RRV_HFn
+10. HRV_GI
+11. Condition
+12. Label

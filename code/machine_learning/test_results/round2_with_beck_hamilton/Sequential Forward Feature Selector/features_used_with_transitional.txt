@@ -1,0 +1,14 @@
+Features Used with transitional period for Sequential Forward Feature Selector
+
+1. HRV_TINN
+2. HRV_LnHF
+3. HRV_SD1SD2
+4. HRV_DFA_alpha1
+5. HRV_DFA_alpha2
+6. HRV_ApEn
+7. HRV_ShanEn
+8. RRV_LFHF
+9. RRV_LFn
+10. RRV_ApEn
+11. Condition
+12. Label

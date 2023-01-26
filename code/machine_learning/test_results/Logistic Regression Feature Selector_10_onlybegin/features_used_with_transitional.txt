@@ -1,0 +1,12 @@
+Features Used with transitional period for Logistic Regression Feature Selector_10_onlybegin
+
+1. HRV_MedianNN
+2. HRV_HTI
+3. HRV_LF
+4. HRV_HFn
+5. HRV_GI
+6. HRV_C2d
+7. HRV_DFA_alpha1
+8. HRV_DFA_alpha2
+9. HRV_ApEn
+10. HRV_KFD

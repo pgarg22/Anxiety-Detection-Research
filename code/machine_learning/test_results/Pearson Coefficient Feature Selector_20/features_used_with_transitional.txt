@@ -1,0 +1,12 @@
+Features Used with transitional period for Pearson Coefficient Feature Selector_20
+
+1. HRV_GI
+2. HRV_MFDFA_alpha1_Max
+3. HRV_ShanEn
+4. HRV_KFD
+5. HRV_MFDFA_alpha1_Delta
+6. HRV_CMSEn
+7. HRV_LF
+8. HRV_RCMSEn
+9. RRV_ApEn
+10. HRV_ApEn

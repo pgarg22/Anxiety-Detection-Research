@@ -1,0 +1,14 @@
+Features Used with transitional period for Factor Analysis Selector
+
+1. HRV_FuzzyEn
+2. HRV_MadNN
+3. HRV_RCMSEn
+4. RSP_Phase_Duration_Expiration
+5. HRV_MFDFA_alpha1_Max
+6. RRV_MCVBB
+7. HRV_MFDFA_alpha2_Mean
+8. HRV_MFDFA_alpha2_Increment
+9. HRV_PI
+10. RRV_SD2SD1
+11. Condition
+12. Label

@@ -1,0 +1,12 @@
+Features Used with transitional period for Chi-2 Feature Selector
+
+1. HRV_SDNN
+2. HRV_VLF
+3. HRV_LF
+4. HRV_C2d
+5. HRV_MFDFA_alpha2_Fluctuation
+6. HRV_MFDFA_alpha2_Increment
+7. HRV_KFD
+8. RRV_LFn
+9. RRV_HFn
+10. RRV_ApEn

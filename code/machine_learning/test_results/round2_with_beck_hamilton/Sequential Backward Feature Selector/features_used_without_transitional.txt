@@ -1,0 +1,14 @@
+Features Used without transitional period for Sequential Backward Feature Selector
+
+1. HRV_MadNN
+2. HRV_VLF
+3. HRV_HF
+4. HRV_GI
+5. HRV_C2d
+6. HRV_MFDFA_alpha1_Max
+7. HRV_ApEn
+8. RSP_Amplitude_Mean
+9. RRV_LFn
+10. RRV_ApEn
+11. Condition
+12. Label

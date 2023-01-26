@@ -1,0 +1,5 @@
+Features Used without transitional period for Exhaustive Feature selector
+
+1. HRV_MinNN
+2. RRV_LFn
+3. RRV_SD2

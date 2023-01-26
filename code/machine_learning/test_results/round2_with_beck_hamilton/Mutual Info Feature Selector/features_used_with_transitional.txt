@@ -1,0 +1,14 @@
+Features Used with transitional period for Mutual Info Feature Selector
+
+1. ECG_Rate_Mean
+2. HRV_LFHF
+3. HRV_HFn
+4. HRV_C1d
+5. HRV_C2d
+6. HRV_MFDFA_alpha2_Peak
+7. HRV_ApEn
+8. RRV_RMSSD
+9. RRV_ApEn
+10. RRV_SampEn
+11. Condition
+12. Label

@@ -1,0 +1,12 @@
+Features Used with transitional period for Factor Analysis Selector_10
+
+1. HRV_SD1SD2
+2. RSP_Phase_Duration_Expiration
+3. HRV_RCMSEn
+4. HRV_ShanEn
+5. HRV_MFDFA_alpha1_Max
+6. RRV_MCVBB
+7. HRV_MFDFA_alpha2_Increment
+8. HRV_PI
+9. RRV_SD2SD1
+10. HRV_MFDFA_alpha2_Peak

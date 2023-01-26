@@ -1,0 +1,12 @@
+Features Used with transitional period for Extra Tree Feature Selector_20
+
+1. HRV_ApEn
+2. RRV_ApEn
+3. HRV_VLF
+4. RRV_LFn
+5. RRV_VLF
+6. HRV_RCMSEn
+7. HRV_LF
+8. HRV_GI
+9. HRV_C2d
+10. RRV_HFn

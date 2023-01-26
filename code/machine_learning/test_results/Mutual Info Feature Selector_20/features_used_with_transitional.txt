@@ -1,0 +1,12 @@
+Features Used with transitional period for Mutual Info Feature Selector_20
+
+1. HRV_MedianNN
+2. HRV_VLF
+3. HRV_DFA_alpha2
+4. HRV_MFDFA_alpha2_Width
+5. HRV_MFDFA_alpha2_Peak
+6. HRV_MFDFA_alpha2_Max
+7. HRV_ApEn
+8. RRV_VLF
+9. RRV_LFn
+10. RRV_HFn

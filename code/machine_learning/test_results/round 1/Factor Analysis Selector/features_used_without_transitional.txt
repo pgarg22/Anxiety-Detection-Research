@@ -1,0 +1,12 @@
+Features Used without transitional period for Factor Analysis Selector
+
+1. HRV_SD1SD2
+2. HRV_CMSEn
+3. HRV_HTI
+4. HRV_MFDFA_alpha1_Max
+5. RRV_LFHF
+6. HRV_MFDFA_alpha2_Increment
+7. RRV_MCVBB
+8. RSP_Rate_Mean
+9. HRV_PI
+10. HRV_MFDFA_alpha2_Mean

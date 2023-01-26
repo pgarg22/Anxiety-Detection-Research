@@ -1,0 +1,12 @@
+Features Used with transitional period for PCA selector_20
+
+1. HRV_FuzzyEn
+2. HRV_MadNN
+3. HRV_PIP
+4. HRV_ApEn
+5. RRV_SD2SD1
+6. RRV_CVBB
+7. RRV_HF
+8. HRV_VLF
+9. RSP_Phase_Duration_Inspiration
+10. HRV_MFDFA_alpha2_Peak
