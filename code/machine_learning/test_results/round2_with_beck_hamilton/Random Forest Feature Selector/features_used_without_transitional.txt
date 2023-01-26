@@ -1,0 +1,14 @@
+Features Used without transitional period for Random Forest Feature Selector
+
+1. HRV_VLF
+2. HRV_LF
+3. HRV_GI
+4. HRV_C2d
+5. HRV_DFA_alpha2
+6. HRV_ApEn
+7. HRV_RCMSEn
+8. RRV_LFn
+9. RRV_HFn
+10. RRV_ApEn
+11. Condition
+12. Label

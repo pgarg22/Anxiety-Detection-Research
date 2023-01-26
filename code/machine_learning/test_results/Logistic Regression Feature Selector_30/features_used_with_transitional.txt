@@ -1,0 +1,12 @@
+Features Used with transitional period for Logistic Regression Feature Selector_30
+
+1. HRV_LF
+2. HRV_HFn
+3. HRV_GI
+4. HRV_DFA_alpha2
+5. HRV_MFDFA_alpha2_Peak
+6. HRV_MFDFA_alpha2_Max
+7. HRV_MFDFA_alpha2_Delta
+8. HRV_KFD
+9. RRV_LFn
+10. RRV_ApEn

@@ -1,0 +1,12 @@
+Features Used with transitional period for Sequential Forward Feature Selector_20
+
+1. HRV_TINN
+2. HRV_SD1SD2
+3. HRV_GI
+4. HRV_C2d
+5. HRV_DFA_alpha1
+6. HRV_MFDFA_alpha1_Fluctuation
+7. HRV_ApEn
+8. HRV_KFD
+9. RRV_MadBB
+10. RRV_LFHF
