@@ -50,8 +50,8 @@ def push_viz_scatter(Number, df,title,ytitle,mode,symbol,range_max,tick_text):
     
     
     fig = go.Figure()
-    cs_place=1.07
-    
+    cs_place=1.0
+    barlength=378
     for i in range(1,Number+1):
         
         
@@ -69,20 +69,26 @@ def push_viz_scatter(Number, df,title,ytitle,mode,symbol,range_max,tick_text):
            colorbar=dict( x= cs_place, title=df.columns[i],
            tickvals=[4,12,20,40],
            ticktext=tick_text[i-1],
-           lenmode="pixels", len=300, ),
+           lenmode="pixels", len=barlength, ),
             # one of plotly colorscales
            showscale=True,
            cmax=range_max[i-1],
            cmin=0)))
-        cs_place=cs_place+0.2
-
+        cs_place=cs_place+0.08
+        if(barlength==378):
+            barlength=336
+        else:
+            barlength=378
         
     fig.update_traces( marker_line_width=2)
     fig.update_layout(height=800, width=1600, title=title,
                       xaxis_title= df.columns[0],
                       yaxis_title=ytitle,
                       legend_title="Legend",
-                      yaxis_zeroline=False, xaxis_zeroline=False)
+                      yaxis_zeroline=False, xaxis_zeroline=False,
+                      font=dict(
+                        size=30,
+                    ))
     fig.show()
     
     if not os.path.exists("images"):
@@ -106,9 +112,10 @@ def push_viz_scatter_subplots(Number, df,title, subtitles,ytitle,mode,symbol,ran
     
     fig = make_subplots(rows=1, cols=Number,horizontal_spacing = 0,
                     vertical_spacing= 0.20,
-                    subplot_titles=subtitles, y_title=ytitle,shared_yaxes=True)
+                    subplot_titles=subtitles,shared_yaxes=True)
     
-    cs_place=1.07
+    cs_place=1.0
+    barlength= 472.5
     for i in range(1,Number+1):
         fig.append_trace(go.Scatter(
         x=df.iloc[:, 0],
@@ -123,22 +130,31 @@ def push_viz_scatter_subplots(Number, df,title, subtitles,ytitle,mode,symbol,ran
            colorbar=dict( x= cs_place, title=df.columns[i],
            tickvals=[4,12,20,40],
            ticktext=tick_text[i-1],
-           lenmode="pixels", len=300, ),
+           lenmode="pixels", len=barlength, ),
             # one of plotly colorscales
            showscale=True,
            cmax=range_max[i-1],
            cmin=0)
         
         ), row=1, col=i)
-        cs_place=cs_place+0.2
+        cs_place=cs_place+0.12
+        if(barlength==472.5):
+            barlength=420
+        else:
+            barlength=472.5
         
     
     fig.update_traces( marker_line_width=2)
     fig.update_layout(height=800, width=1600, title=title,
                       xaxis_title= df.columns[0],
-                
-                      yaxis_zeroline=False, xaxis_zeroline=False, 
-                      )
+                      yaxis_title=ytitle,
+                      yaxis_zeroline=False, xaxis_zeroline=False, font=dict(
+                          size=20,  # Set the font size here
+
+                    ))
+    fig.update_layout( legend=dict(font=dict(size=16)))
+    fig.update_annotations(font=dict(size=20))
+                      
     fig.show()
 
     if not os.path.exists("images"):
@@ -164,8 +180,8 @@ def push_viz_bar(Number, df,title, subtitles,ytitle,range_max,tick_text):
     
     
     fig = go.Figure()
-    cs_place=1.07
-    
+    cs_place=1.0
+    barlength=378
     for i in range(1,Number+1):
         
         df= df.sort_values(by=df.columns[i])
@@ -180,12 +196,16 @@ def push_viz_bar(Number, df,title, subtitles,ytitle,range_max,tick_text):
            colorbar=dict( x= cs_place, title=df.columns[i],
            tickvals=[4,12,20,40],
            ticktext=tick_text[i-1],
-           lenmode="pixels", len=300, ),
+           lenmode="pixels", len=barlength, ),
             # one of plotly colorscales
            showscale=True,
            cmax=range_max[i-1],
            cmin=0)))
-        cs_place=cs_place+0.2
+        cs_place=cs_place+0.08
+        if(barlength==378):
+            barlength=336
+        else:
+            barlength=378
 
         
     fig.update_traces( marker_line_width=2)
@@ -193,7 +213,13 @@ def push_viz_bar(Number, df,title, subtitles,ytitle,range_max,tick_text):
                       xaxis_title= df.columns[0],
                       yaxis_title=ytitle,
                       legend_title="Legend",
-                  yaxis_zeroline=False, xaxis_zeroline=False,xaxis={ 'categoryorder':'array', 'categoryarray':['<10', '10-20', '20-30','30-40', '40-50','50-60','60+']})
+                  yaxis_zeroline=False, xaxis_zeroline=False,
+                  xaxis={ 'categoryorder':'array', 'categoryarray':['<10', '10-20', '20-30','30-40', '40-50','50-60','60+']}
+                  , font=dict(
+                      size=16,  # Set the font size here
+
+                ))
+    fig.update_annotations(font=dict(size=18))
     fig.show()
     
     if not os.path.exists("images"):
@@ -214,7 +240,8 @@ Function to plot a bar plots as subplots in plotly
     
 def push_viz_bar_subplots(Number, df,title, subtitles,ytitle,range_max,tick_text):
     
-    cs_place=1.07
+    cs_place=1.0
+    barlength=378
     fig = make_subplots(rows=1, cols=Number,horizontal_spacing = 0.15,
                     vertical_spacing= 0.20,
                     subplot_titles=subtitles)
@@ -231,15 +258,17 @@ def push_viz_bar_subplots(Number, df,title, subtitles,ytitle,range_max,tick_text
            colorbar=dict( x= cs_place, title=df.columns[i],
            tickvals=[4,12,20,40],
            ticktext=tick_text[i-1],
-           lenmode="pixels", len=300, ),
+           lenmode="pixels", len=barlength, ),
             # one of plotly colorscales
            showscale=True,
            cmax=range_max[i-1],
            cmin=0)), row=1, col=i)
 
-        cs_place=cs_place+0.2
-    
-
+        cs_place=cs_place+0.08
+        if(barlength==378):
+            barlength=336
+        else:
+            barlength=378
     fig.update_traces( marker_line_width=2)
     fig.update_layout(height=800, width=1600, title=title,
                   xaxis_title= df.columns[0],

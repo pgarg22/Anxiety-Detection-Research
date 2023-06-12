@@ -22,8 +22,8 @@ push_viz_scatter_subplots(2,
                  "markers+lines",
                  ["diamond","cross"],
                  [63,56],
-                 [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-                  ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 
 
 ##############################################################################################
@@ -40,8 +40,8 @@ push_viz_scatter_subplots(2,
                  "markers",
                  ["diamond","cross"],
                  [63,56],
-                 [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-                  ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 
 
 ##############################################################################################
@@ -54,9 +54,8 @@ push_viz_bar(2,
              ["Beck Anxiety", "Hamilton Anxiety"],
              "Anxiety Level",
              [63,56],
-             [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-              ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
-
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 
 ##############################################################################################
 
@@ -71,9 +70,8 @@ push_viz_scatter_subplots(2,
                  "markers",
                  ["diamond","cross"],
                  [63,56],
-                 [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-                  ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
-
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 
 push_viz_bar_subplots(2, 
              demographic_df.loc[:, ["Gender","Beck Anxiety", "Hamilton Anxiety"]],
@@ -81,9 +79,8 @@ push_viz_bar_subplots(2,
              ["Beck Anxiety", "Hamilton Anxiety"],
              "Anxiety Level",
              [63,56],
-             [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-             ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
-
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 ##############################################################################################
 
 
@@ -99,14 +96,13 @@ push_viz_scatter_subplots(2,
                  "markers",
                  ["diamond","cross"],
                  [63,56],
-                 [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-                  ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
-
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])
 push_viz_bar_subplots(2, 
              demographic_df.loc[:, ["BMI","Beck Anxiety", "Hamilton Anxiety"]],
              "BMI_bar",
              ["Beck Anxiety", "Hamilton Anxiety"],
              "Anxiety Level",
              [63,56],
-             [["Minimum(0-7)","Mild(8-15)","Moderate(16-25)","Severe(26-63)"],
-              ["Minimum(0-7)","Mild(8-14)","Moderate(15-23)","Severe(24-56)"]])
+                 [["Minimum</br></br>(0-7)","Mild</br></br>(8-15)","Moderate</br></br>(16-25)","Severe</br></br>(26-63)"],
+                  ["Minimum</br></br>(0-7)","Mild</br></br>(8-14)","Moderate</br></br>(15-23)","Severe</br></br>(24-56)"]])

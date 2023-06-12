@@ -27,4 +27,3 @@ just_start_names=["trans10_onlybegin","trans20_onlybegin"
 for i in range(0,len(just_start_names)):
     run_ecg_res_processing(data_ecg_res,time_window[i],0,
                            just_start_names[i],drop_missing=False)
-    
